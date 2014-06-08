@@ -28,7 +28,7 @@ header {
 
 nav {
 	text-align: center;
-	padding: 10px 0;
+	font-size: 1.25em;
 	margin: 20px 0 0;
 }
 
@@ -38,8 +38,9 @@ nav ul {
 	padding: 0;
 }
 
-nav a {
-	padding: 15px 10px;
+nav li {
+	margin: 10px 0;
+	padding: 10px;
 }
 
 /* ABOUT */
@@ -64,7 +65,7 @@ a {
 	color: #FFF;
 }
 
-nav ul {
+nav ul li {
 	background-color: #333;
 }
 
