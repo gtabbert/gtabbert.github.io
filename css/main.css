@@ -23,9 +23,6 @@ header {
 	text-align: center;
 }
 
-#logo {
-}
-
 nav {
 	text-align: center;
 	font-size: 1.25em;
@@ -46,13 +43,25 @@ nav li {
 /* ABOUT */
 .profile {
 	display: block;
-	max-width: 150px;
+	max-width: 200px;
 	margin: 0 auto;
 }
+
+/* GALLERY */
+#gallery li {
+	list-style: none;
+}
+
+#gallery img {
+	margin: 0;
+	padding: 0;
+}
+
 
 /* FOOTER */
 footer {
 	text-align: center;
+	font-size: 0.75em;
 }
 
 /* COLOURS */
@@ -71,4 +80,8 @@ nav ul li {
 
 img {
 	background-color: #333;
+}
+
+footer {
+	color: #999;
 }

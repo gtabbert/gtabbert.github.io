@@ -2,10 +2,18 @@
 	body {
 		background: red;
 	}
+
+	nav ul li {
+		display: inline-block;
+	}
 }
 
 @media screen and (min-width: 660px) {
     body {
     	background: green;
+    }
+
+    header {
+    	float: left;
     }
 }
