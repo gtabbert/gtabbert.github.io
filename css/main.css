@@ -1,0 +1,26 @@
+/* GENERAL */
+
+body {
+	background-color: #fff;
+    color: #DDD;
+}
+
+#wrapper {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 5%;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: none;
+}
+
+/* HEADER */
+
+header {
+	float: left;
+}
