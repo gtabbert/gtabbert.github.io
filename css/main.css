@@ -1,4 +1,7 @@
 /* GENERAL */
+body {
+	font-family: 'Oswald', sans-serif;
+}
 
 #wrapper {
 	max-width: 940px;
@@ -61,7 +64,7 @@ a {
 	color: #FFF;
 }
 
-nav ul li {
+nav ul {
 	background-color: #333;
 }
 
