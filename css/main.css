@@ -1,10 +1,5 @@
 /* GENERAL */
 
-body {
-	background-color: #fff;
-    color: #000;
-}
-
 #wrapper {
 	max-width: 940px;
 	margin: 0 auto;
@@ -20,7 +15,35 @@ img {
 }
 
 /* HEADER */
-
 header {
 	float: left;
+	margin: 0 0 30px 0;
+}
+
+#logo {
+	text-align: center;
+}
+
+nav {
+	text-align: center;
+
+}
+
+nav li {
+	list-style: none;
+}
+
+/* ABOUT */
+.profile {
+	max-width: 150px;
+}
+
+/* COLOURS */
+body {
+	background-color: #000;
+	color: #FFF;
+}
+
+a {
+	color: ;
 }
