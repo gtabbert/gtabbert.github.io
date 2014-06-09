@@ -6,6 +6,11 @@
 	nav ul li {
 		display: inline-block;
 	}
+
+	#gallery li {
+		float: left;
+		width: 50%;
+	}
 }
 
 @media screen and (min-width: 660px) {
@@ -13,7 +18,29 @@
     	background: green;
     }
 
-    header {
+    #logo {
     	float: left;
     }
+
+    h1 {
+    	font-size: 2em;
+    }
+
+    nav {
+    	float: right;
+    	display: inline-block;
+    }
+
+    #gallery {
+    	clear: left;
+    }
+
+    #gallery li {
+    	float: left;
+    	width: 250px;
+    }
+
+    footer {
+    	clear: left;
+
 }

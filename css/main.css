@@ -52,8 +52,11 @@ nav li {
 	list-style: none;
 }
 
-#gallery img {
-	margin: 0;
+#gallery li img {
+	position: relative;
+	left: -20px;
+	width: 100%;
+	margin: 0 auto;
 	padding: 0;
 }
 
