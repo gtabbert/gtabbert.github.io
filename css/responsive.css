@@ -11,6 +11,20 @@
 		float: left;
 		width: 50%;
 	}
+
+	.first {
+		width: 50%;
+		float: left;
+	}
+
+	.second {
+		width: 50%;
+		float: right;
+	}
+
+	footer {
+		clear: left;
+	}
 }
 
 @media screen and (min-width: 660px) {
@@ -18,29 +32,23 @@
     	background: green;
     }
 
-    #logo {
-    	float: left;
+    header {
+    	height: 150px;
+    	padding: 20px;
     }
 
-    h1 {
-    	font-size: 2em;
+    #logo {
+ 		text-align: left
     }
+
+    #logo h1 {
+    	font-size: 3em;
+    	margin-bottom: -20px;
+    }
+
 
     nav {
-    	float: right;
-    	display: inline-block;
+    	text-align: right;
+    	position: relative;
+    	top: -130px;
     }
-
-    #gallery {
-    	clear: left;
-    }
-
-    #gallery li {
-    	float: left;
-    	width: 250px;
-    }
-
-    footer {
-    	clear: left;
-
-}
