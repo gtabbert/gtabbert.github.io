@@ -9,16 +9,6 @@
 		width: 50%;
 	}
 
-	.first {
-		width: 50%;
-		float: left;
-	}
-
-	.second {
-		width: 50%;
-		float: right;
-	}
-
 	footer {
 		clear: left;
 	}
@@ -32,7 +22,7 @@
     }
 
     #logo {
- 		text-align: left
+ 		text-align: left;
     }
 
     #logo h1 {
@@ -40,9 +30,21 @@
     	margin-bottom: -20px;
     }
 
-
     nav {
     	text-align: right;
     	position: relative;
     	top: -130px;
     }
+
+	.first {
+		margin: 0 5%;
+		width: 40%;
+		float: left;
+	}
+
+	.second {
+		margin: 0 5%;
+		width: 40%;
+		float: right;
+	}
+}
