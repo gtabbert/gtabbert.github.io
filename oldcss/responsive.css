@@ -1,0 +1,65 @@
+@media screen and (min-width: 480px) {
+
+	nav ul li {
+		display: inline-block;
+	}
+
+	#gallery li {
+		float: left;
+		width: 50%;
+	}
+
+	footer {
+		margin-top: 30px;
+		clear: left;
+	}
+}
+
+@media screen and (min-width: 660px) {
+
+    header {
+    	height: 150px;
+    	padding: 20px 50px;
+    }
+
+    #logo {
+ 		text-align: left;
+    }
+
+    #logo h1 {
+    	font-size: 3em;
+    	margin-bottom: -20px;
+    }
+
+    nav {
+    	text-align: right;
+    	position: relative;
+    	top: -130px;
+    }
+
+    .bg {
+    	margin: 0 10%;
+    	max-width: 80%;
+    }
+
+    #gallery {
+    	max-width: 1280px;
+    	margin: 0 auto;
+    }
+
+    #gallery li {
+    	width: 33.333333333%;
+    }
+
+	.first {
+		margin: 0 5%;
+		width: 40%;
+		float: left;
+	}
+
+	.second {
+		margin: 0 5%;
+		width: 40%;
+		float: right;
+	}
+}

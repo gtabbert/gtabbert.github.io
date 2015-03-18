@@ -1,4 +1,4 @@
-/* GENERAL */
+/* GLOBAL */
 body {
 	font-family: 'Oswald', sans-serif;
 }
@@ -13,23 +13,36 @@ a {
 	text-decoration: none;
 }
 
-img {
-	max-width: none;
-	padding: 10px;
-}
-
 h1 {
 	font-size: 3em;
 	margin-bottom: -20px;
 }
 
+h2 {
+	margin-top: 10px;
+	font-size: 2em;
+	text-align: center;
+}
+
 h3 {
+	font-size: 1.5em;
 	text-align: center;
 }
 
 p {
 	text-indent: 20px;
 }
+
+img {
+	max-width: 100%;
+}
+
+ul {
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+}
+
 
 
 /* HEADER */
@@ -40,20 +53,19 @@ header {
 }
 
 nav {
-	text-align: center;
 	font-size: 1.25em;
-	margin: 20px 0 0;
-}
-
-nav ul {
-	list-style: none;
-	margin: 0 10px;
-	padding: 0;
 }
 
 nav li {
 	margin: 10px 0;
 	padding: 10px;
+	border-radius: 5px;
+}
+
+/* FRONT */
+.bg img {
+	display: block;
+	margin: 0 auto;
 }
 
 /* ABOUT */
@@ -61,68 +73,64 @@ nav li {
 	display: block;
 	max-width: 200px;
 	margin: 0 auto;
+	border-radius: 10px;
 }
 
 /* RESUME */
-.title {
-	text-align: center;
+section a {
+	color: #999;
+	text-decoration: underline;
 }
 
-.title h3 {
-	font-size: 0.5em
+.nested li {
+	text-indent: 10px;
 }
 
-/* GALLERY */
-
-
-#gallery li {
-	list-style: none;
+section a:hover {
+	color: #CCC;
 }
 
+section a:active {
+	color: #666;
+}
+
+/* PORTFOLIO */
 #gallery li img {
-	position: relative;
-	left: -20px;
+	margin-top: -5px;
 	width: 100%;
-	margin: 0;
-	padding: 0;
 }
+
+
 
 /* CONTACT */
-section ul {
-	list-style: none;
-}
+
 
 /* FOOTER */
 footer {
 	text-align: center;
-	font-size: 0.75em;
+	padding-top: 30px;
 }
 
 /* COLOURS */
 
 header {
-	background-color: #333;
-}
-
-body {
-	background-color: #000;
-	color: #FFF;
+	background-color: #ccc;
 }
 
 a {
-	color: #FFF;
+	color: #000;
 }
 
 nav ul li {
+	background-color: #999;
+}
+
+nav ul li:hover {
 	background-color: #666;
 }
 
 nav ul li:active {
-	background-color: #999;
-}
-
-img {
-	background-color: #333;
+	background-color: #fff;
 }
 
 footer {

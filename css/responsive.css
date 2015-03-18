@@ -1,6 +1,6 @@
 @media screen and (min-width: 480px) {
 
-	nav ul li {
+		nav ul li {
 		display: inline-block;
 	}
 
@@ -10,6 +10,7 @@
 	}
 
 	footer {
+		margin-top: 30px;
 		clear: left;
 	}
 }
@@ -18,7 +19,7 @@
 
     header {
     	height: 150px;
-    	padding: 20px;
+    	padding: 20px 50px;
     }
 
     #logo {
@@ -30,10 +31,28 @@
     	margin-bottom: -20px;
     }
 
+    #logo h2 {
+    	text-align: left;
+    }
+
     nav {
     	text-align: right;
     	position: relative;
     	top: -130px;
+    }
+
+    .bg {
+    	margin: 0 10%;
+    	max-width: 80%;
+    }
+
+    #gallery {
+    	max-width: 1280px;
+    	margin: 0 auto;
+    }
+
+    #gallery li {
+    	width: 33.333333333%;
     }
 
 	.first {
