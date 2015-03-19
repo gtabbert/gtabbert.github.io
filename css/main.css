@@ -95,7 +95,7 @@ section a:active {
 }
 
 /* PORTFOLIO */
-#gallery li img {
+.gallery li img {
 	margin-top: -5px;
 	width: 100%;
 }

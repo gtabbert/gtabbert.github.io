@@ -1,10 +1,10 @@
 @media screen and (min-width: 480px) {
 
-		nav ul li {
+	nav ul li {
 		display: inline-block;
 	}
 
-	#gallery li {
+	.gallery li {
 		float: left;
 		width: 50%;
 	}
@@ -13,6 +13,10 @@
 		margin-top: 30px;
 		clear: left;
 	}
+
+    h3 {
+        clear: both;
+    }
 }
 
 @media screen and (min-width: 660px) {
@@ -46,12 +50,12 @@
     	max-width: 80%;
     }
 
-    #gallery {
+    .gallery {
     	max-width: 1280px;
     	margin: 0 auto;
     }
 
-    #gallery li {
+    .gallery li {
     	width: 33.333333333%;
     }
 
